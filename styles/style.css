@@ -1,0 +1,300 @@
+/* Google font link */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* Header section style start */
+
+/* Hero section style start */
+#hero {
+  max-width: 1920px;
+  margin: 0px auto;
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.hero-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 50%;
+}
+
+.hero-title {
+  color: rgb(39, 39, 39);
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+}
+
+.hero-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  padding: 20px 43px 20px 43px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-img,
+.hot-deal-img {
+  width: 50%;
+}
+/* Hero section style end */
+
+/* Header section style end */
+/* ===================================== */
+/* Main section style start */
+
+/* Feature section style start */
+#featured,
+#customer-care,
+#instagram,
+#latest-deal {
+  max-width: 1440px;
+  margin: 128px auto;
+}
+
+.section-title {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.featured-flowers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+#flower-1,
+#flower-2,
+#flower-3 {
+  width: 464px;
+  height: 538px;
+  padding: 96px 76px 0px;
+  border-radius: 50% 50% 0 0;
+}
+
+#flower-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+#flower-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+#flower-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-title {
+  color: rgb(39, 39, 39);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 2rem;
+}
+/* Feature section style end */
+
+/* Customer care section style start */
+.customer-care {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding: 86px 175px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.care {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.care > p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Customer care section style end */
+
+/* Hot deal section style start */
+#hot-deal {
+  max-width: 1920px;
+  margin: 0px auto;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.hot-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.hot-deal-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.hot-deal-img {
+  display: flex;
+  justify-content: center;
+}
+/* Hot deal section style end */
+
+/* Instagram section style start */
+.instagram-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1.5rem;
+}
+
+.instagram-gallery img {
+  border: 3px dotted wheat;
+}
+/* Instagram section style end */
+
+/* Latest deal section style start */
+.latest-deal {
+  background: url(../assets/images/latest-deal-bg.png);
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.latest-deal input {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 1.5rem;
+  width: 700px;
+  height: 64px;
+  border: none;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.latest-deal input ::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Latest deal section style end */
+
+/* Main section style end */
+/* ===================================== */
+/* Footer section style start */
+#footer {
+  max-width: 1920px;
+  margin: 0px auto;
+  height: 450px;
+  background: rgb(17, 16, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer-title {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(229, 84, 115);
+  margin-bottom: 2rem;
+}
+
+.footer-title > span {
+  color: rgb(255, 255, 255);
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Footer section style end */
